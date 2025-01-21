@@ -8,7 +8,7 @@ const Schema = mongoose.Schema;
 const personSchema = new Schema({
   name: {type: String, required: true},
   age: Number,
-  favFoods: [String]
+  favoriteFoods: [String]
 });
 Person = mongoose.model("Person", personSchema);
 
